@@ -1,0 +1,79 @@
+.first {
+    margin-top: 80px;
+}
+
+body {}
+
+.circle,
+.movedCircle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: -31px;
+    cursor: move;
+}
+
+#recta .circle,
+#recta .movedCircle {
+    background-color: blue;
+}
+
+#recta1 .circle,
+#recta1 .movedCircle {
+    background-color: green;
+}
+
+#recta2 .circle,
+#recta2 .movedCircle {
+    background-color: red;
+}
+
+.rect1 {
+    height: 200px;
+    width: 1400px;
+    border: 1px solid;
+}
+
+.rect2 {
+    height: 200px;
+    width: 1400px;
+    border: 1px solid;
+}
+
+.rect3 {
+    height: 200px;
+    width: 1400px;
+    border: 1px solid;
+}
+
+#rod1 {
+    height: 5px;
+    width: 1400px;
+    border: 2px solid;
+    background-color: #966F33;
+    cursor: col-resize;
+}
+
+#rod2 {
+    height: 5px;
+    width: 1400px;
+    border: 2px solid;
+    background-color: #966F33;
+    cursor: col-resize;
+}
+
+#rod3 {
+    height: 5px;
+    width: 1400px;
+    border: 2px solid;
+    background-color: #966F33;
+    cursor: col-resize;
+}
+
+.blue {
+    color: blue;
+    text-align: center;
+}

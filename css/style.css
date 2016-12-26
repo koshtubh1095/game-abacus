@@ -1,11 +1,22 @@
-.first {
-    margin-top: 80px;
+body
+{
+  background: url("/home/codingmart/Desktop/try/abacus (2)/abacus/tumblr_lq4sq7HvuL1qh7ra3o1_500.gif") no-repeat center center fixed; 
+ 
+background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-body {}
 
+.first 
+{
+    margin-top: 80px;
+}
 .circle,
-.movedCircle {
+.movedCircle 
+{
     width: 20px;
     height: 20px;
     border: 2px solid;
@@ -15,19 +26,21 @@ body {}
     margin-top: -31px;
     cursor: move;
 }
-
 #recta .circle,
-#recta .movedCircle {
+#recta .movedCircle
+{
     background-color: blue;
 }
 
 #recta1 .circle,
-#recta1 .movedCircle {
+#recta1 .movedCircle 
+{
     background-color: green;
 }
 
 #recta2 .circle,
-#recta2 .movedCircle {
+#recta2 .movedCircle 
+{
     background-color: red;
 }
 
@@ -37,7 +50,8 @@ body {}
     border: 1px solid;
 }
 
-.rect2 {
+.rect2 
+{
     height: 200px;
     width: 1400px;
     border: 1px solid;
@@ -49,7 +63,8 @@ body {}
     border: 1px solid;
 }
 
-#rod1 {
+#rod1 
+{
     height: 5px;
     width: 1400px;
     border: 2px solid;
@@ -57,7 +72,8 @@ body {}
     cursor: col-resize;
 }
 
-#rod2 {
+#rod2 
+{
     height: 5px;
     width: 1400px;
     border: 2px solid;
@@ -65,7 +81,8 @@ body {}
     cursor: col-resize;
 }
 
-#rod3 {
+#rod3 
+{
     height: 5px;
     width: 1400px;
     border: 2px solid;
@@ -73,7 +90,8 @@ body {}
     cursor: col-resize;
 }
 
-.blue {
+.blue 
+{
     color: blue;
     text-align: center;
 }
